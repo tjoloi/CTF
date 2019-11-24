@@ -1,0 +1,7 @@
+J'ai vu que dans le code source que Eliza est un bot qui existe déjà, so j'ai Google pour voir l'original, ce qui m'a mené à la page https://waporvave.neocities.org/eli.html.
+
+À voir comment les pages sont pratiquement pareils, j'ai copié le texte dans un analyseur de différences (https://www.diffchecker.com/diff)
+
+Avec ça, je suis tombé sur la partie qui fetch "/password.php?password=" et sur le message qui parle de drapeau. À voir comment c'était pas du ASCII, j'ai assumé que c'était un hash et, comme de fait, c'était un hash SHA-1.
+
+Un petit tour sur un cracker de HASH me donne le mot de passe qui est SAVETHERABBIT.

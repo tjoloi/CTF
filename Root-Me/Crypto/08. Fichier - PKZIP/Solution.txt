@@ -1,0 +1,2 @@
+Online tool: https://passwordrecovery.io/zip-file-password-removal/
+Uses John The Ripper to crack the password

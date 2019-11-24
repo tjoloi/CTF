@@ -1,0 +1,7 @@
+hash = QmVkVDYHzMmGUp4fCK9Qwuubn7XeRc5dETtqG5QWxe5uR2
+hex = -2:2.:6E-D.3C-9E52DE-9BF8A7E8FB353DE8B8EEFE7978D43698268265486BF6-EAD-
+morse = .-.. . .-.-.- ..-. .-.. .- --. .-.-.- . ... - .-.-.- .-.. .- .-.-.- .--. .-. . -- .. . .-. . .-.-.- .- -.. .-. . ... ... . .-.-.- -.. . .-.-.- ... .- - --- ... .... ..
+
+code = LE.FLAG.EST.LA.PREMIERE.ADRESSE.DE.SATOSHI
+
+addresse = 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
