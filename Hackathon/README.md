@@ -8,7 +8,7 @@ Since the goal of Dialog Insight was to make us learn Vue.js, they prepared code
 
 ## Prize won
 There was 3 prizes
-- Most overeall functionalities
+- Most overall functionalities
 - Best UI
 - Cleanest code
 
