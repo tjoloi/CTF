@@ -2,7 +2,8 @@
 
 ### General presentation
 
-Repo for the multiple CTFs during the 2019 edition of the HackFest. I only seriously participated in the Classic CTF. Everything else is incomplete.
+Repo for the multiple CTFs during the 2019 edition of the HackFest.\
+I only seriously participated in the Classic CTF, everything else is incomplete.
 
 ### Places won
 
