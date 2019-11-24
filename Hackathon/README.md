@@ -15,7 +15,7 @@ There was 3 prizes
 Our team won the *most functionalities* and finished in close second place for *cleanest code*.
 
 ### External ressources
-Since our working code is in another repo, there isn't much to present here. So here's the external repos.
+Since our working code is in another repo, there isn't much to present here. So here are the external repos.
 
 [Template repo from Dialog Insight](https://github.com/dialog-insight/labyrinth-vue)\
 [API doc from Dialog Insight](https://labyrinth-api.herokuapp.com/api-docs/)\
