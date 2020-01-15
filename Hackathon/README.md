@@ -4,7 +4,7 @@
 The goal of this project was to develop a maze web app in a single day.\
 We had a total of 9 hours to do everything.
 
-Since the goal of Dialog Insight was to make us learn Vue.js, they prepared code for what they judged wasn't pertinent for the project. We had access to a template Vue app that prints a base web page and an API that handled authentification and give us 2 mazes, one easy and one advanced.
+Since the goal of Dialog Insight was to make us learn Vue.js, they prepared code for what they judged wasn't pertinent for the project. We had access to a template Vue app that prints a base web page, an API that handled authentification and 2 mazes, one easy and one advanced.
 
 ## Prize won
 There was 3 prizes
