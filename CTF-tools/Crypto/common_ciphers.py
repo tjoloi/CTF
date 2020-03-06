@@ -6,7 +6,7 @@ def caesar(word, shift, alphabet=string.ascii_lowercase):
 		decoded += alphabet[(alphabet.index(c) + shift) % len(alphabet)]
 	return decoded
 
-def vigenere(words, key, alphabet=string.ascii_lowercase, case_sensitive=false):
+def vigenere(words, key, alphabet=string.ascii_lowercase, case_sensitive=False):
 	plain = ''
 	idx_key = 0
 
