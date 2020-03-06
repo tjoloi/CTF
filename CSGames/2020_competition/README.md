@@ -4,4 +4,4 @@
 The 2020 edition of the CS Games competition organised by ETS.
 
 ### External ressources
-[Website](2020.csgames.org)
+[Website](https://2020.csgames.org)
