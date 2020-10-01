@@ -3,7 +3,10 @@ import string
 def caesar(word, shift, alphabet=string.ascii_lowercase):
 	decoded = ''
 	for c in word:
-		decoded += alphabet[(alphabet.index(c) + shift) % len(alphabet)]
+		try:
+			decoded += alphabet[(alphabet.index(c) + shift) % len(alphabet)]
+		except:
+			decoded += c
 	return decoded
 
 def vigenere(words, key, alphabet=string.ascii_lowercase, case_sensitive=False):
