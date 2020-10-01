@@ -8,7 +8,7 @@
 - [Le XOR](#le-xor)
 - [AES Client](#aes-client)
 - [AES CTR](#aes-ctr)
-- [AES ECB Cut & Paste](#aes-ect-cut--paste)
+- [AES ECB Cut & Paste](#aes-ecb-cut--paste)
 - [AES ECB Byte par byte](#aes-ecb-byte-par-byte)
 
 ### Data Format
@@ -29,7 +29,7 @@ The resulting flag was `FLAG-494c6f766544617NDYxNDY2Zjcy3631373437333061`
 
 [Link to challenge on github](https://github.com/UnitedCTF/UnitedCTF-2020/tree/master/challenges/crypto/julius)
 
-The challenge gave us a flag encrypted using [Caesar cipher](https://en.wikipedia.org/wiki/Caesar_cipher) with an unknown n value. To solve the challenge, I used my caesar function from [my common_ciphers.py file](https://github.com/tjoloi/CTF/blob/master/CTF-tools/Crypto/common_ciphers.py) and decrypted using n values from 0 to 25.
+The challenge gave us a flag encrypted using [Caesar cipher](https://en.wikipedia.org/wiki/Caesar_cipher) with an unknown n value. To solve the challenge, I used my caesar function from my [common_ciphers.py](https://github.com/tjoloi/CTF/blob/master/CTF-tools/Crypto/common_ciphers.py) file and decrypted using n values from 0 to 25.
 
 At every iteration, we check if the decrypted value had `FLAG-` in it to find the right n value.
 
@@ -40,7 +40,7 @@ With n value being `23`
 
 [Link to challenge on github](https://github.com/UnitedCTF/UnitedCTF-2020/tree/master/challenges/crypto/vigenere)
 
-The challenge gave us a flag encrypted using [Vigenère cipher](https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher) with an unknown key of length 4. To solve the challenge, I used my vigenere function from [my common_ciphers.py file](https://github.com/tjoloi/CTF/blob/master/CTF-tools/Crypto/common_ciphers.py) and decrypted the first 4 chars using every combination of 4 letters possible.
+The challenge gave us a flag encrypted using [Vigenère cipher](https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher) with an unknown key of length 4. To solve the challenge, I used my vigenere function from my [common_ciphers.py](https://github.com/tjoloi/CTF/blob/master/CTF-tools/Crypto/common_ciphers.py) file and decrypted the first 4 chars using every combination of 4 letters possible.
 
 At every key combination, we try to see if the result is `FLAG` if it is, we decrypt the entire flag using that key.
 
@@ -73,7 +73,7 @@ The resulting flag was `FLAG-0d4c39fa0c7c1d167d4bd20064a6053f`
 
 The vulnerability here was that the key and nonce were generated at the start of the session and the counter was always reset to 0 so every encryption had the same exact parameters.
 
-The actual exploit is explained in great detail in [the function `ctr_same_key_nonce()` from my aes.py file](https://github.com/tjoloi/CTF/blob/master/CTF-tools/Crypto/aes.py) but the jist of it is that we can ask the server to encrypt something at least the same length of the flag and, using that and the known plaintext of that something, we can retreive the original flag.
+The actual exploit is explained in great detail when calling the function `ctr_same_key_nonce(help=True)` from my [aes.py](https://github.com/tjoloi/CTF/blob/master/CTF-tools/Crypto/aes.py) file but the jist of it is that we can ask the server to encrypt something at least the same length of the flag and, using that and the known plaintext of that something, we can retrieve the original flag.
 
 The resulting flag was `FLAG-2b38737dbe6bdbc0db6d35c9689e5155`
 
@@ -99,3 +99,7 @@ flag = "True"
 ```
 
 The resulting flag was `FLAG-32c2a2f6befcf9bb7ad9e9e359e550b2`
+
+### AES ECB Byte par byte
+
+WIP

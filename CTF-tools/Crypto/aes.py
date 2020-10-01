@@ -1,7 +1,7 @@
 from binascii import hexlify, unhexlify
 from xor import xor_everything
 
-def ctr_same_key_nonce(encrypted_flag=0, encrypted_oracle=0, plaintext_oracle=0, print_help=False):
+def ctr_same_key_nonce(encrypted_flag=0, encrypted_oracle=0, plaintext_oracle=0, help=False):
 	if print_help:
 		print('''\
 Attack on AES CTR reusing the same secret key and nonce.
