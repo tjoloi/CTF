@@ -1,0 +1,1 @@
+0x0000000009ed2870      1      0 R--r-- \Device\HarddiskVolume1\Documents and Settings\Mauv\Desktop\fanion_etandard_oriflamme.rtf
